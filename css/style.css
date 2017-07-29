@@ -1,0 +1,78 @@
+/*Top navigation bar*/
+nav ul {
+    list-style-type: none;
+    padding: 10;
+    margin: 0;
+    border: 5px #725B3C;
+    text-align: center;
+}
+
+img {
+    float: left;
+ margin-right:10px;
+    /*Navigation link settings*/
+}
+
+nav li {
+    display: inline-block;
+     border-right: 2px #F9FBFD;
+}
+
+nav li a {
+    display:block;
+    padding: 10px 60px;
+    color: #000000;
+    text-decoration: none;
+}
+nav li a:hover {
+    color: #ffffff;
+    background-color: #725B3C;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #F9F6F1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+header, nav, .section_one, .section_two, footer {
+    background-color: #725B3C;
+}
+
+header, nav, #pagebrake {
+    margin-bottom: 10px;
+}
+
+#pagebrake {
+    display: flex;
+    /*height: 900px;*/
+}
+
+/*left part of screen*/
+.part_one {
+    width: 290px;
+    margin-right: 10px;
+}
+
+/*right part of screen*/
+.part_two {
+    width: 960px;
+}
+
+footer {
+    height: 125px;
+    color:#000000;
+    text-align: center;
+    padding:20px;
+    margin: auto;
+}
+
+/*this is for the recipe UL*/
+.labelclass li a:link {
+color: #000000;
+}
